@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memes - Galerie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a href="index.html" class="back-btn">← Retour</a>
+            <h1 id="categoryTitle">🎭 Memes</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="gallery-controls">
+            <button id="shuffleBtn" class="control-btn">
+                🔀 Mélanger
+            </button>
+            <span id="memeCount" class="count">0 memes</span>
+        </div>
+
+        <div class="gallery" id="gallery">
+            <div class="loading">
+                <div class="spinner"></div>
+                <p>Chargement des memes...</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <button class="lightbox-close">&times;</button>
+        <button class="lightbox-prev">‹</button>
+        <button class="lightbox-next">›</button>
+        <div class="lightbox-content">
+            <img id="lightboxImg" src="" alt="">
+            <div class="lightbox-actions">
+                <span id="lightboxCounter"></span>
+                <div class="action-buttons">
+                    <button id="shareBtn" class="action-btn">
+                        📋 Copier le lien
+                    </button>
+                    <button id="downloadBtn" class="action-btn">
+                        💾 Télécharger
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast notification -->
+    <div id="toast" class="toast"></div>
+
+    <footer>
+        <p>Meme Collection • Powered by GitHub Pages</p>
+    </footer>
+
+    <script src="gallery.js"></script>
+</body>
+</html>
