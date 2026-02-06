@@ -9,7 +9,7 @@ echo "🎭 MEME COLLECTION - UPDATE"
 echo "=========================================="
 echo ""
 
-REPO_PATH="/Users/mal/Documents/GitHub/Lev-Tho.github.io"
+REPO_PATH="/Users/mal/Documents/GitHub/meme-land.github.io"
 
 # Vérifie que le repo existe
 if [ ! -d "$REPO_PATH" ]; then
