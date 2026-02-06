@@ -495,7 +495,7 @@ footer {
 
 @media (max-width: 480px) {
     .gallery {
-        columns: 1;
+        columns: 2;
     }
 
     .emoji {
