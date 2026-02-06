@@ -9,7 +9,7 @@ import json
 from pathlib import Path
 
 # Configuration
-REPO_PATH = "/Users/mal/Documents/GitHub/Lev-Tho.github.io"
+REPO_PATH = "/Users/mal/Documents/GitHub/meme-land.github.io"
 MEMES_FOLDER = os.path.join(REPO_PATH, "memes")
 
 # Catégories
